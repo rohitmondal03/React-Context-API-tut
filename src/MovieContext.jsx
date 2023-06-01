@@ -24,7 +24,7 @@ export const MovieProvider = ({ children }) => {
 
     return (
         <MovieContext.Provider
-            value={"Hello"}
+            value={[movies, setMovies]}
         >
             {children}
         </MovieContext.Provider>
